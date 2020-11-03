@@ -34,7 +34,7 @@ export default function index(){
                 <Row className="overlay-particles m-0">
                 <Col md={8} xs={12} className="mx-auto text-center p-0">
                 <Image src="./me.png" className="logo-image" /> <br /> 
-                <a className="mb-5" href="https://www.docdroid.net/07QRbc3/resume-pdf" target="_blank" className="text-white btn bg-dark">Check my resume here.</a> <br /><br />
+                {/* <a className="mb-5" href="https://www.docdroid.net/07QRbc3/resume-pdf" target="_blank" className="text-white btn bg-dark">Check my resume here.</a> <br /><br /> */}
                 <h4>
                 <Image src="./screedbot.gif" className="myName" />
                 </h4>
