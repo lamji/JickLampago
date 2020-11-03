@@ -178,4 +178,9 @@ a {
     background-color: #8c3f5f !important;
     display: block;
   }
+  .projects-images{
+    width: 100% !important;
+    margin: 0px auto !important;
+    margin-top:  30px;
+  }
 }
