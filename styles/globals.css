@@ -19,6 +19,7 @@ body {
 }
 hr{
   background-color: #8c3f5f !important;
+  display: none;
 }
 a {
   color: white;
@@ -54,7 +55,7 @@ a {
   padding:20px !important;
   width: 100% ;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .social-icon{
   width: 30px;
@@ -136,7 +137,7 @@ a {
   padding: 100px 10px !important;
 }
 .projects-images{
-  width: 80% !important;
+  width: 60% !important;
   margin: 0px auto !important;
   margin-top:  30px;
 }
@@ -146,7 +147,7 @@ a {
 }
 @media only screen and (max-width: 768px) {
  .socialAccount{
-   margin-top: 250px;
+   margin-top: 0px;
   }
   .logo-image{
     width: 60% !important;
@@ -172,5 +173,9 @@ a {
   }
   .box{
     width: 100% !important;
+  }
+  hr{
+    background-color: #8c3f5f !important;
+    display: block;
   }
 }

@@ -21,6 +21,7 @@ export default function index(){
                         <p>Bootstrap</p>
                     </Nav>
                 </h6>
+                <hr />
             </Col>
             <Col md={6} xs={12} className="bg-light p-3 text-dark">
                 <a className="" href="https://lamji.gitlab.io/developer_pages/assets/pages/Genesis.html" target="_blank"> <Image src="./pro2.jpg" className="projects-images shadow image-link" /></a>
@@ -37,9 +38,11 @@ export default function index(){
                         <p>Bootstrap</p>
                     </Nav>
                 </h6>
+                <hr />
             </Col>
+          
         </Row>
-        <hr />
+        
         <Row className="m-0 ">
             <Col md={6} xs={12} className="bg-light p-3 text-dark">
                 <a className="" href="https://covid-19-tracker-bay-nu.vercel.app/?fbclid=IwAR1dfYqX7e4vQ1gWJ-aD1the4QHZQm5RWNM-vEuLnWtT6WZ7gnypqNJVR8s" target="_blank"> <Image src="./v2.png" className="projects-images image-link shadow" /></a>
@@ -65,6 +68,7 @@ export default function index(){
                         <p>MapBoxgl</p>
                     </Nav>
                 </h6>
+                <hr />
             </Col>
             <Col md={6} xs={12} className="bg-light p-3 text-dark ">
                 <a className="" href="https://budget-tracker-sigma.vercel.app/" target="_blank"> <Image src="./itrack.png" className="projects-images image-link shadow" /></a>
@@ -95,6 +99,7 @@ export default function index(){
                         <p>React-Bootstrap</p>
                     </Nav>
                 </h6>
+                <hr />
             </Col>
         </Row>
         </Card>

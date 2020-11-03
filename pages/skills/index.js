@@ -12,7 +12,7 @@ export default function index(){
         </Row>
 
         <Row className="m-0 box mx-auto">
-                <Col md={3} xs={8} className="rb"><Image src="./rb.png" className="js-image" />React-Bootsrap</Col>
+                <Col md={3} xs={8} className="rb"><Image src="./rb.png" className="js-image" />React-Bootstrap</Col>
                 <Col md={2} xs={4} className="sass"><Image src="./sass.png" className="js-image" />Sass</Col>
                 <Col md={3} xs={5} className="mui"><Image src="./mui.png" className="js-image" />Material UI</Col>
                 <Col md={4} xs={7} className="rb"><Image src="./react.png" className="js-image" />React.js</Col>
