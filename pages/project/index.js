@@ -22,101 +22,70 @@ export default function index(){
         <Card className="projects">
         <h3 className="mb-4">Projects</h3>
         <Row className="m-0 ">
-            <Col md={6} xs={12} className="bg-light p-3 text-dark">
-                <a className="" href="https://lamji.gitlab.io/capstone-1/" target="_blank"> <Image src="./pro1.png" className="projects-images image-link shadow" data-aos='fade-right' /></a>
-                <a href="https://lamji.gitlab.io/capstone-1/" target="_blank"><h4 className=" title text-dark">My First Website Portfolio</h4></a>
-                <h6 className=" title mb-0">
-                    
-                    <Nav className="justify-content-center" activeKey="/home">
-                    <b>Tools:</b>
-                        <p className="ml-3">Html 5</p>
-                        <p className="mx-2">-</p>
-                        <p>Css 3</p>
-                        <p className="mx-2">-</p>
-                        <p>Sass</p>
-                        <p className="mx-2">-</p>
-                        <p>Bootstrap</p>
-                    </Nav>
-                </h6>
-                <hr />
+            <Col md={8} xs={12} className=" p-3 text-dark capstone1 " data-aos='fade-right'>
+                <a className="" href="https://lamji.gitlab.io/capstone-1/" target="_blank"> <Image src="./pro1.png" className=" projects-images image-link shadow"  /></a>
             </Col>
-            <Col md={6} xs={12} className="bg-light p-3 text-dark">
-                <a className="" href="https://lamji.gitlab.io/developer_pages/assets/pages/Genesis.html" target="_blank"> <Image src="./pro2.jpg" className="projects-images shadow image-link" data-aos='fade-left' /></a>
-                <a href="https://lamji.gitlab.io/developer_pages/assets/pages/Genesis.html" target="_blank"><h4 className=" title text-dark">Youth-Alive Blog</h4></a>
-                <h6 className="text-left title mb-0">
-                    <Nav className="justify-content-center" activeKey="/home">
-                    <b>Tools:</b>
-                        <p className="ml-3">Html 5</p>
-                        <p className="mx-2">-</p>
-                        <p>Css 3</p>
-                        <p className="mx-2">-</p>
-                        <p>Sass</p>
-                        <p className="mx-2">-</p>
-                        <p>Bootstrap</p>
-                    </Nav>
-                </h6>
-                <hr />
+            <Col md={4} xs={12} className="text-left">
+            <a href="https://lamji.gitlab.io/capstone-1/" target="_blank"><h4 className="text-white" data-aos="fade-up">My First Website Portfolio</h4></a>
+                <h5><b>Tools used in this project</b> </h5>
+                <p data-aos="flip-left">Html 5</p>
+                <p data-aos="flip-right">Css 3</p>
+                <p data-aos="flip-left">Sass</p>
+                <p data-aos="flip-right">Bootstrap</p>
             </Col>
-          
         </Row>
-        
+
         <Row className="m-0 ">
-            <Col md={6} xs={12} className="bg-light p-3 text-dark">
-                <a className="" href="https://covid-19-tracker-bay-nu.vercel.app/?fbclid=IwAR1dfYqX7e4vQ1gWJ-aD1the4QHZQm5RWNM-vEuLnWtT6WZ7gnypqNJVR8s" target="_blank"> <Image src="./v2.png" className="projects-images image-link shadow" data-aos='fade-right' /></a>
-                <a href="https://covid-19-tracker-bay-nu.vercel.app/?fbclid=IwAR1dfYqX7e4vQ1gWJ-aD1the4QHZQm5RWNM-vEuLnWtT6WZ7gnypqNJVR8s" target="_blank"><h4 className=" title text-dark">Covid19 Tracker (Light Mode)</h4></a>
-                <a href="https://covid19-tracker-v-2-git-main.lamji.vercel.app/" target="_blank"><h4 className=" title text-dark">Covid19 Tracker (Dark Mode)</h4></a>
-                <h6 className=" title mb-0">
-                    <Nav className="justify-content-center" activeKey="/home">
-                    <b>Tools:</b>
-                        <p className="ml-3">React.js</p>
-                        <p className="mx-2">-</p>
-                        <p className="ml-3">Javascript Es6</p>
-                        <p className="mx-2">-</p>
-                        <p className="ml-3">Node.js</p>
-                        <p className="mx-2">-</p>
-                        <p>Next.js</p>
-                        <p className="mx-2">-</p>
-                        <p>Sass</p>
-                        <p className="mx-2">-</p>
-                        <p>React-Bootstrap</p>
-                        <p className="mx-2">-</p>
-                        <p>Third Party API</p>
-                        <p className="mx-2">-</p>
-                        <p>MapBoxgl</p>
-                    </Nav>
-                </h6>
-                <hr />
+            <Col md={8} xs={12} className=" text-right p-3" data-aos='fade-right'>
+            <a href="https://lamji.gitlab.io/developer_pages/assets/pages/Genesis.html" target="_blank"><h4 className="text-white" data-aos="fade-up">Youth-Alive Blog</h4></a>
+            <h5><b>Tools used in this project</b> </h5>
+                <p data-aos="flip-left">Html 5</p>
+                <p data-aos="flip-right">Css 3</p>
+                <p data-aos="flip-left">Sass</p>
+                <p data-aos="flip-right">Bootstrap</p>
             </Col>
-            <Col md={6} xs={12} className="bg-light p-3 text-dark ">
+            <Col md={4} xs={12} className="p-3 capstone1 " >
+                <a className="" href="https://lamji.gitlab.io/developer_pages/assets/pages/Genesis.html" target="_blank"> <Image src="./pro2.jpg" className=" projects-images image-link shadow"  /></a>
+            </Col>
+        </Row>
+
+        <Row className="m-0 ">
+            <Col md={4} xs={12} className=" text-right p-3" data-aos='fade-right'>
+            <a href="https://covid19-tracker-v-2-git-main.lamji.vercel.app/" target="_blank"><h4 className="text-white" data-aos="fade-up">Covid19 Tracker (Dark Mode)</h4></a>
+            <h5><b>Tools used in this project</b> </h5>
+                <p data-aos="flip-left">React.js</p>
+                <p data-aos="flip-right">Javascript ES6</p>
+                <p data-aos="flip-left">Express.js</p>
+                <p data-aos="flip-right">Node.js</p>
+                <p data-aos="flip-right">Rest Api</p>
+                <p data-aos="flip-right">MapBox</p>
+                <p data-aos="flip-right">Next.js</p>
+                <p data-aos="flip-right">React-sass</p>
+                <p data-aos="flip-right">React-Bootstrap</p>
+            </Col>
+            <Col md={8} xs={12} className="p-3 capstone2 " data-aos='fade-right'>
+                <a className="" href="https://covid19-tracker-v-2-git-main.lamji.vercel.app/" target="_blank"> <Image src="./v2.png" className=" projects-images image-link shadow"  /></a>
+            </Col>
+        </Row>
+
+        <Row className="m-0 ">
+            <Col md={8} xs={12} className="p-2 text-dark capstone2">
                 <a className="" href="https://budget-tracker-sigma.vercel.app/" target="_blank"> <Image src="./itrack.png" className="projects-images image-link shadow" data-aos='fade-left'  /></a>
-                <a href="https://budget-tracker-sigma.vercel.app/" target="_blank"><h4 className=" title text-dark">iTrack - Record and track your expenses</h4></a>
-                <h6 className="text-left title mb-0">
-                    <Nav className="justify-content-center" activeKey="/home">
-                    <b>Tools:</b>
-                        <p className="ml-3">React.js</p>
-                        <p className="mx-2">-</p>
-                        <p className="ml-3">Javascript Es6</p>
-                        <p className="mx-2">-</p>
-                        <p className="ml-3">Node.js</p>
-                        <p className="mx-2">-</p>
-                        <p>Next.js</p>
-                        <p className="mx-2">-</p>
-                        <p>Express.js</p>
-                        <p className="mx-2">-</p>
-                        <p>Mongoose</p>
-                        <p className="mx-2">-</p>
-                        <p>MongoDb</p>
-                        <p className="mx-2">-</p>
-                        <p>Google Auth</p>
-                        <p className="mx-2">-</p>
-                        <p>React-charts</p>
-                        <p className="mx-2">-</p>
-                        <p>Sass</p>
-                        <p className="mx-2">-</p>
-                        <p>React-Bootstrap</p>
-                    </Nav>
-                </h6>
-                <hr />
+            </Col>
+            <Col md={4} xs={12} className=" text-left p-3" data-aos='fade-right'>
+            <a href="https://covid19-tracker-v-2-git-main.lamji.vercel.app/" target="_blank"><h4 className="text-white" data-aos="fade-up">I-Track - Budgeting App</h4></a>
+            <h5><b>Tools used in this project</b> </h5>
+                <p data-aos="flip-left">React.js</p>
+                <p data-aos="flip-right">Javascript ES6</p>
+                <p data-aos="flip-left">Express.js</p>
+                <p data-aos="flip-right">Node.js</p>
+                <p data-aos="flip-right">Rest Api</p>
+                <p data-aos="flip-right">MongoDB</p>
+                <p data-aos="flip-right">Google Auth</p>
+                <p data-aos="flip-right">JWT Authentication</p>
+                <p data-aos="flip-right">Next.js</p>
+                <p data-aos="flip-right">React-sass</p>
+                <p data-aos="flip-right">React-Bootstrap</p>
             </Col>
         </Row>
         </Card>

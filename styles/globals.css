@@ -131,19 +131,23 @@ a {
 
 /* projects */
 .projects{
-  background: white!important;
-  color: gray;
+  background: #222831 !important;
+  color:white !important;
   text-align: center;
   padding: 100px 10px !important;
 }
 .projects-images{
-  width: 60% !important;
+  width: 70% !important;
   margin: 0px auto !important;
   margin-top:  30px;
 }
-
-.title{
-  margin: 10px 30px !important;
+.capstone1{
+  clip-path: polygon(0 0, 73% 0, 100% 100%, 23% 100%) !important;
+  background-color: #222831 !important;
+}
+.capstone2{
+  clip-path: polygon(23% 0, 100% 0, 73% 100%, 0 100%) !important;
+  background-color: #222831 !important;
 }
 @media only screen and (max-width: 768px) {
  .socialAccount{
