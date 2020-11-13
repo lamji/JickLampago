@@ -70,7 +70,7 @@ export default function index(){
 
         <Row className="m-0 ">
             <Col md={4} xs={12} sm={12} className=" text-left p-3" data-aos='fade-right'>
-            <a href="https://covid19-tracker-v-2-git-main.lamji.vercel.app/" target="_blank"><h4 className="text-white" data-aos="fade-up">I-Track - Budgeting App</h4></a>
+            <a href="https://i-track.vercel.app/" target="_blank"><h4 className="text-white" data-aos="fade-up">I-Track - Budgeting App</h4></a>
             <h5><b>Tools used in this project</b> </h5>
                 <p data-aos="flip-left">React.js</p>
                 <p data-aos="flip-right">Javascript ES6</p>
@@ -86,7 +86,7 @@ export default function index(){
                 <p data-aos="flip-right">JWT Authentication</p>
             </Col>
             <Col md={8} xs={12} sm={12} className="p-3 capstone2 " data-aos='fade-right'>
-            <a className="" href="https://budget-tracker-sigma.vercel.app/" target="_blank"> <Image src="./itrack.png" className="projects-images image-link shadow" data-aos='fade-left'  /></a>
+            <a className="" href="https://i-track.vercel.app/" target="_blank"> <Image src="./itrack.png" className="projects-images image-link shadow" data-aos='fade-left'  /></a>
             </Col>
         </Row>
 
