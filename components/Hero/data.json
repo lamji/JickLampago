@@ -1,0 +1,146 @@
+[
+    {
+        "name": "React.js",
+        "logo": "/react2.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Node.js",
+        "logo": "/node.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Express.js",
+        "logo": "/node.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "JQuery",
+        "logo": "/jquery2.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Storybook",
+        "logo": "/storybook.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Npm/React Package",
+        "logo": "/npm_logo.png",
+        "size": 4,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Vanilla javascript",
+        "logo": "/js.png",
+        "size": 4,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Next.js",
+        "logo": "/next.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "React Typscript",
+        "logo": "/ts.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "React Redux/Toolkit",
+        "logo": "/redux.png",
+        "size": 4,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "React Bootstrap",
+        "logo": "/react-boot.png",
+        "size": 4,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 30
+    },
+    {
+        "name": "Materiall UI 5",
+        "logo": "/mui.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Bootstrap 4",
+        "logo": "/bootstrap4.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Html 5",
+        "logo": "/html5.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Css 3",
+        "logo": "/css3.png",
+        "size": 2,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    },
+    {
+        "name": "Sass",
+        "logo": "/sass.png",
+        "size": 3,
+        "color": "black",
+        "background": "white",
+        "height": 20,
+        "width": 20
+    }
+]
