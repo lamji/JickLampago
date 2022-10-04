@@ -1,10 +1,7 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
-import ListItemText from "@mui/material/ListItemText";
-import ListItem from "@mui/material/ListItem";
-import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
+import Image from "next/image";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
@@ -14,6 +11,9 @@ import CloseIcon from "@mui/icons-material/Close";
 import Slide from "@mui/material/Slide";
 import { Box, Container, Grid } from "@mui/material";
 import { borderRadius, height, width } from "@mui/system";
+import Addtocart from "../Card/Addtocart";
+import DrawerApp from "../AppDrawer/Index";
+import TemporaryDrawer from "../AppDrawer/Index";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -21,6 +21,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 export default function FullScreenDialog(props) {
   const [open, setOpen] = React.useState(false);
+  const [drawer, setDrawer] = React.useState(false)
 
   const { status, dataOut, dataIn } = props;
 
@@ -43,6 +44,9 @@ export default function FullScreenDialog(props) {
         open={open}
         onClose={handleClose}
         TransitionComponent={Transition}
+        sx={{
+          zIndex: 100
+        }}
       >
         <AppBar
           position="static"
@@ -58,8 +62,14 @@ export default function FullScreenDialog(props) {
             >
               <CloseIcon />
             </IconButton>
+            <Image
+              src="/experince.png"
+              alt="Picture of the author"
+              width={25}
+              height={25}
+            />
             <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
-              Close
+              Experience
             </Typography>
           </Toolbar>
         </AppBar>
@@ -77,26 +87,10 @@ export default function FullScreenDialog(props) {
             }}
           >
             <Grid item lg={6} xs={12}>
-              <Box>
-                <Typography variant="h5" fontWeight={700}>
-                  About Me
-                </Typography>
-                <Box sx={{ border: "2px solid gray" }}></Box>
-                <Typography variant="body2" mt={3}>
-                  <Box component="span" sx={{ marginLeft: "50px" }}></Box>My
-                  name is Jick T Lampago, a front-end software engineer
-                  specialized in React.Js. I graduated in Cataingan Polytechnic
-                  Institute as Associated in Computer Technology and taking my
-                  mastery in web development by joining a bootcamp in Zuitt
-                  Institute.
-                </Typography>
-                <Typography variant="body2" mt={3}>
-                  <Box component="span" sx={{ marginLeft: "50px" }}></Box> I've
-                  been working as a front-end software back in 2017 by using
-                  html, css, Vanilla Js. 2020 when I started using React.js as a
-                  front-end library in creating responsive UI in all of my
-                  poject based contract and work as fulltime React Developer and I'm always curious to learn more about new technologies and creative coding
-                </Typography>
+              <Box sx={{zIndex: 2000}}>
+              <TemporaryDrawer status={drawer} dataOut={(i) => setDrawer(i)}/>
+              {/* <Button onClick={() => setDrawer(true)}>add</Button> */}
+              <Addtocart dataOut={(i) => setDrawer(i?.status) } />
               </Box>
             </Grid>
             <Grid item lg={3} xs={12}>
@@ -116,7 +110,7 @@ export default function FullScreenDialog(props) {
                     borderRadius: "73% 27% 12% 88% / 59% 26% 74% 41%",
                     height: "300px",
                     width: "300px",
-                    backgroundImage: "url(/DP.png)",
+                    backgroundImage: "url(/job.png)",
                     backgroundSize: "cover",
                   }}
                 ></Box>

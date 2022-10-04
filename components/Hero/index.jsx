@@ -1,13 +1,20 @@
-import { Button, Container, Grid, Typography } from "@mui/material";
+import { Button, ButtonBase, Container, Grid, IconButton, Typography } from "@mui/material";
+import DeleteIcon from "@mui/icons-material/Delete";
+import {DriveFileMove} from '@mui/icons-material';
 import { Box } from "@mui/system";
 import SkilssCard from "../Card";
 import React from "react";
 import data from "./data.json";
-import Modal from "../Modal"
+import Experience from "../Modal/Experience"
+import Modal from "../Modal";
+import TemporaryDrawer from "../AppDrawer/Index";
+
 
 function index() {
   console.log(data);
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = React.useState(false);
+  const [openExp, setOpenExp] = React.useState(false);
+  const [drawer, setDrawer] = React.useState(false)
   return (
     <Box sx={{ backgroundImage: "url(/preview.png)" }}>
       <Container maxWidth="xl">
@@ -26,11 +33,11 @@ function index() {
                 },
                 display: {
                   lg: "contents",
-                  xs: "flex"
+                  xs: "flex",
                 },
                 alignItems: {
-                  xs: "center"
-                }
+                  xs: "center",
+                },
               }}
             >
               <Box>
@@ -39,7 +46,44 @@ function index() {
                   JICK LAMPAGO
                 </Typography>
                 <Typography variant="h6">A React Web Developer</Typography>
-                <Button variant="outlined" onClick={() => setOpen(true)}>About Me</Button>
+                
+                <Box sx={{display: "table-caption"}}>
+                  <IconButton
+                    aria-label="delete"
+                    onClick={() => setOpen(true)}
+                    sx={{
+                      p:0,
+                      "&:focus": {
+                        outline: 0,
+                        border: 0,
+                      },
+                      "&:hover": {
+                        background: "transparent",
+                      },
+                    }}
+                  >
+                    <DriveFileMove />
+                    <Typography variant="body2" >About Me</Typography>
+                  </IconButton>
+
+                  <IconButton
+                    aria-label="delete"
+                    onClick={() => setOpenExp(true)}
+                    sx={{
+                      p:0,
+                      "&:focus": {
+                        outline: 0,
+                        border: 0,
+                      },
+                      "&:hover": {
+                        background: "transparent",
+                      },
+                    }}
+                  >
+                    <DriveFileMove />
+                    <Typography variant="body2">Experience</Typography>
+                  </IconButton>
+                </Box>
               </Box>
             </Box>
           </Grid>
@@ -65,7 +109,8 @@ function index() {
             </Box>
           </Grid>
         </Grid>
-        <Modal status={open} dataOut={(i) => setOpen(false)}/>
+        <Modal  status={open} dataOut={(i) => setOpen(false)} />
+        <Experience status={openExp} dataOut={(i) => setOpenExp(false)}/>
       </Container>
     </Box>
   );

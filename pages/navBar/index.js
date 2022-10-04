@@ -55,7 +55,7 @@ const ResponsiveAppBar = () => {
             <Image src="/business.svg" alt="Vercel Logo" width={50} height={50} />
           </Typography>
           <Box sx={{display: "flex"}} gap={2}>
-            <a href="https://github.com/" target="_blank">
+            <a href="https://github.com/lamji" target="_blank">
               <GitHubIcon
                 sx={{
                   "& svg": {
@@ -65,7 +65,7 @@ const ResponsiveAppBar = () => {
                 }}
               />
             </a>
-            <a href="https://github.com/" target="_blank">
+            <a href="https://gitlab.com/Lamji" target="_blank">
               <Image
                 src="/gitlab.svg"
                 alt="Picture of the author"
