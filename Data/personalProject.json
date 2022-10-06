@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Covid 19 tracker",
+        "url" : "https://covid-19-tracker-bay-nu.vercel.app/",
+        "description": "lorem",
+        "image": "/covid.png",
+        "tech" :[
+            "Next.js",
+            "Rapid Api",
+            "Redux",
+            "Bootstrap"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Covid 19 tracker Dark",
+        "url" : "https://covid19-tracker-v-2-iosfo3d94.vercel.app/",
+        "description": "lorem",
+        "image": "/covidDark.png",
+        "tech" :[
+            "Next.js",
+            "Rapid Api",
+            "Redux",
+            "Bootstrap"
+        ]
+    }
+]
