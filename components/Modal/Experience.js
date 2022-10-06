@@ -12,8 +12,8 @@ import Slide from "@mui/material/Slide";
 import { Box, Container, Grid } from "@mui/material";
 import { borderRadius, height, width } from "@mui/system";
 import Addtocart from "../Card/Addtocart";
-import DrawerApp from "../AppDrawer/Index";
 import TemporaryDrawer from "../AppDrawer/Index";
+import data from "../../Data/Experience.json";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -21,8 +21,8 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 export default function FullScreenDialog(props) {
   const [open, setOpen] = React.useState(false);
-  const [drawer, setDrawer] = React.useState(false)
-
+  const [drawer, setDrawer] = React.useState(false);
+  const [id, setId] = React.useState();
   const { status, dataOut, dataIn } = props;
 
   const handleClickOpen = () => {
@@ -45,7 +45,7 @@ export default function FullScreenDialog(props) {
         onClose={handleClose}
         TransitionComponent={Transition}
         sx={{
-          zIndex: 100
+          zIndex: 100,
         }}
       >
         <AppBar
@@ -87,10 +87,26 @@ export default function FullScreenDialog(props) {
             }}
           >
             <Grid item lg={6} xs={12}>
-              <Box sx={{zIndex: 2000}}>
-              <TemporaryDrawer status={drawer} dataOut={(i) => setDrawer(i)}/>
-              {/* <Button onClick={() => setDrawer(true)}>add</Button> */}
-              <Addtocart dataOut={(i) => setDrawer(i?.status) } />
+              <Box sx={{ zIndex: 2000 }}>
+                <TemporaryDrawer
+                  dataIn={id || 0}
+                  status={drawer}
+                  dataOut={(i) => setDrawer(i)}
+                />
+                {/* <Button onClick={() => setDrawer(true)}>add</Button> */}
+                {data.map((rs) => {
+                  return (
+                    <Box key={rs?.id} m={1}>
+                      <Addtocart
+                        dataIn={rs}
+                        dataOut={(i) => {
+                          setDrawer(i?.status);
+                          setId(i?.id);
+                        }}
+                      />
+                    </Box>
+                  );
+                })}
               </Box>
             </Grid>
             <Grid item lg={3} xs={12}>

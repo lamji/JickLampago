@@ -1,0 +1,125 @@
+[
+    {
+        "id": 6,
+        "company": "Igen Payment System",
+        "position": " React Developer",
+        "discription": "I am a React Developer at this company. My role is to convert all figma design into a working React Project using MVVM approach, Implementing Redux on every React Project including api integration and validation. I also created some React package and publish to our private npm server.",
+        "year": "June 2022 to October 2022",
+        "tech": [
+            "React.js",
+            "Next.js",
+            "React Redux",
+            "Javascript Es6",
+            "Storybook",
+            "Typescript",
+            "Git"
+        ],
+        "project": [
+            "Pdf Bot Generator",
+            "Reward and Redemption (Admin Dashboard)",
+            "Online Store Mini App",
+            "OMS Admin dashboard",
+            "Serino Table List "
+        ],
+        "location": "Makati City (WFH)"
+    },
+    {
+        "id": 5,
+        "company": "Elearnified",
+        "position": " Front End Developer (Part Time)",
+        "discription": "As Front End Developer in this company. My role was to override the existing moodle design to meet the UI/Ux Design using scss, javascript and jquery",
+        "year": "June 2022 to October 2022",
+        "tech": [
+            "Vanilla Js ES6",
+            "Bootstrap",
+            "Css",
+            "Sass",
+            "Html 5",
+            "Jquery",
+            "Git"
+        ],
+        "project": [
+            "PRC (Philippine Red Cross LMS)"
+        ],
+        "location": "Pasig (WFH)"
+    },
+    {
+        "id": 4,
+        "company": "Abakada Studios",
+        "position": " Full Stack Developer",
+        "discription": "I am a javascript developer in this company, working on a frontend using vanilla javascript, Vue.js,html5, bootstrap and jquery. At the same time, since we are using an open source tool which is developed in Javascript and python, I also used basic python on a backend. I was involved with several projects in this company.",
+        "year": "March 2021 to May 2022",
+        "tech": [
+            "Vanilla Js ES6",
+            "Bootstrap",
+            "Css",
+            "Sass",
+            "Html 5",
+            "Jquery",
+            "Rest API",
+            "Git"
+        ],
+        "project": [
+            "Balibago University (LMS)",
+            "Philippines College of Criminology ( LMS )",
+            "Unida Christian College (HRIS)",
+            "Abakada Kids (LMS Gamefied)",
+            "Philippines College of Criminology (EAS, HRIS)",
+            "Paymongo (Payment Gateway)"
+        ],
+        "location": "Pasig (WFH)"
+    },
+    {
+        "id": 1,
+        "company": "Codally Tech",
+        "position": "React Web Developer",
+        "discription": "It is project based, My role on this project is for UI Development, Codally Tech is working on a project called A+ Learning platform which serves as an online school during pandemic. We work as a team and use Agile Methodology. The entire UI project is developed using Next.js and Material UI.",
+        "year": "Nov 2020 to Dec 2020",
+        "tech": [
+            "Next.js",
+            "Material UI",
+            "Git"
+        ],
+        "project": [
+            "A+"
+        ],
+        "location": "Taguig (WFH)"
+    },
+    {
+        "id": 2,
+        "company": "Zuitt Bootcamp",
+        "position": "MERN Stack Developer",
+        "discription": "This is not usually a company job but a bootcamp. The reason why I included this is to showcase all the personal projects that we develop for the entire 3 months of bootcamp.",
+        "year": "August 2020 to Oct 2020",
+        "tech": [
+            "React.js",
+            "React Bootstrap",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Rest API",
+            "Next.js"
+        ],
+        "project": [
+            "Covid 19 Tracker Dark Mode",
+            "Budget Tracker",
+            "Grab Clone"
+        ],
+        "location": "Makat City"
+    },
+    {
+        "id": 3,
+        "company": "Kenn Flynn",
+        "position": "React Web Developer",
+        "discription": "This is also a project based. They already have their website but it’s totally outdated. My role here is to update and convert their website into the latest React.js Library. It takes 3 months including API integration and payment using paypal",
+        "year": "March 2020 to June 2020",
+        "tech": [
+            "React.js",
+            "React Bootstrap"
+        ],
+        "project": [
+            "OutOfTheValley"
+        ],
+        "location": "Washington, DC (WFH)"
+    }
+]

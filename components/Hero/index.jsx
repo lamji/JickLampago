@@ -11,7 +11,6 @@ import TemporaryDrawer from "../AppDrawer/Index";
 
 
 function index() {
-  console.log(data);
   const [open, setOpen] = React.useState(false);
   const [openExp, setOpenExp] = React.useState(false);
   const [drawer, setDrawer] = React.useState(false)
