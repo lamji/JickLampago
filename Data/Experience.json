@@ -26,7 +26,7 @@
     {
         "id": 5,
         "company": "Elearnified",
-        "position": " Front End Developer (Part Time)",
+        "position": " Front End Developer",
         "discription": "As Front End Developer in this company. My role was to override the existing moodle design to meet the UI/Ux Design using scss, javascript and jquery",
         "year": "June 2022 to October 2022",
         "tech": [
@@ -41,7 +41,7 @@
         "project": [
             "PRC (Philippine Red Cross LMS)"
         ],
-        "location": "Pasig (WFH)"
+        "location": "Pasig (WFH - Part Time)"
     },
     {
         "id": 4,
@@ -67,7 +67,7 @@
             "Philippines College of Criminology (EAS, HRIS)",
             "Paymongo (Payment Gateway)"
         ],
-        "location": "Pasig (WFH)"
+        "location": "Pasig (WFH -Full Time)"
     },
     {
         "id": 1,

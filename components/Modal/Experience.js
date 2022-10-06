@@ -1,5 +1,4 @@
 import * as React from "react";
-import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import Image from "next/image";
 import AppBar from "@mui/material/AppBar";
@@ -14,6 +13,7 @@ import { borderRadius, height, width } from "@mui/system";
 import Addtocart from "../Card/Addtocart";
 import TemporaryDrawer from "../AppDrawer/Index";
 import data from "../../Data/Experience.json";
+import CustomArrows from "../Slick";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -86,8 +86,19 @@ export default function FullScreenDialog(props) {
               height: "90vh",
             }}
           >
-            <Grid item lg={6} xs={12}>
-              <Box sx={{ zIndex: 2000 }}>
+            <Grid item lg={7} xs={12}>
+              <Box
+                sx={{
+                  zIndex: 2000,
+                  height: "364px",
+                  overflowY: "scroll",
+                  borderRadius: 2,
+                  p: 1,
+                  backgroundColor: "#ebebeb",
+                  boxShadow:
+                    "rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px",
+                }}
+              >
                 <TemporaryDrawer
                   dataIn={id || 0}
                   status={drawer}
@@ -108,6 +119,7 @@ export default function FullScreenDialog(props) {
                   );
                 })}
               </Box>
+              
             </Grid>
             <Grid item lg={3} xs={12}>
               <Box

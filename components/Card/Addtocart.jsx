@@ -28,8 +28,8 @@ function Addtocart(props) {
             <Image
               src="/experince.png"
               alt="Picture of the author"
-              width={45}
-              height={45}
+              width={30}
+              height={30}
             />
           </Box>
           <Box mx={2} sx={{
@@ -74,10 +74,14 @@ function Addtocart(props) {
           <Box>
             <Typography
               variant="body2"
-              fontWeight={700}
+              fontSize={11}
               sx={{
                 color: "gray",
                 marginLeft: "10px",
+                minWidth: {
+                  lg: 120,
+                  xs: 0
+                },
                 display: {
                   lg: "block",
                   xs: "none",
@@ -100,10 +104,15 @@ function Addtocart(props) {
               },
             }}
           ></Box>
-          <Box>
+          <Box sx={{
+            minWidth: {
+              lg:130,
+              xs: 10
+            }
+          }}>
             <Typography
               variant="body2"
-              fontSize={15}
+              fontSize={11}
               fontWeight={700}
               sx={{
                 color: "gray",
