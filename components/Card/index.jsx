@@ -4,7 +4,7 @@ import React from 'react'
 
 function index(props) {
     const {bg, width, height, color, image, label} = props
-    console.log(props)
+
   return (
     <Box>
         <Box gap={1} sx={{display: "flex", background: bg , p: 1, borderRadius: 10, justifyContent: "center"}}>
