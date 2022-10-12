@@ -1,10 +1,7 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
-import ListItemText from "@mui/material/ListItemText";
-import ListItem from "@mui/material/ListItem";
-import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
+import AddIcCallIcon from '@mui/icons-material/AddIcCall';
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
@@ -95,7 +92,7 @@ export default function FullScreenDialog(props) {
                   been working as a front-end software back in 2017 by using
                   html, css, Vanilla Js. 2020 when I started using React.js as a
                   front-end library in creating responsive UI in all of my
-                  poject based contract and work as fulltime React Developer and I'm always curious to learn more about new technologies and creative coding
+                  poject based contract and work as fulltime React Developer and I'm always curious to learn more about new technologies and creative coding.
                 </Typography>
               </Box>
             </Grid>

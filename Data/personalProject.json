@@ -17,7 +17,60 @@
         "name": "Covid 19 tracker Dark",
         "url" : "https://covid19-tracker-v-2-iosfo3d94.vercel.app/",
         "description": "lorem",
-        "image": "/covidDark.png",
+        "image": "/v2.png",
+        "tech" :[
+            "Next.js",
+            "Rapid Api",
+            "Redux",
+            "Bootstrap"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Score Generator",
+        "url" : "https://score-generator.vercel.app/",
+        "description": "lorem",
+        "image": "/score-generator.png",
+        "tech" :[
+            "Next.js",
+            "Rapid Api",
+            "Redux",
+            "Bootstrap"
+        ]
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Budget Tracker",
+        "url" : "https://score-generator.vercel.app/",
+        "description": "lorem",
+        "image": "/budget-tracker.png",
+        "tech" :[
+            "Next.js",
+            "Rapid Api",
+            "Redux",
+            "Bootstrap"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Portfolio V3",
+        "url" : "https://jick-portfolio.vercel.app/",
+        "description": "lorem",
+        "image": "/jick-portfolio.png",
+        "tech" :[
+            "Next.js",
+            "Rapid Api",
+            "Redux",
+            "Bootstrap"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Youth Alive",
+        "url" : "https://lamji.gitlab.io/developer_pages/assets/pages/Genesis.html",
+        "description": "lorem",
+        "image": "/pro2.jpg",
         "tech" :[
             "Next.js",
             "Rapid Api",
@@ -26,3 +79,7 @@
         ]
     }
 ]
+
+
+
+

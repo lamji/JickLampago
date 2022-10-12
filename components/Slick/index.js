@@ -89,10 +89,10 @@ export default class CustomArrows extends Component {
         <Slider {...settings}>
           <SlickCarrd dataIn={data?.[0]}/>
           <SlickCarrd dataIn={data?.[1]}/>
-          <SlickCarrd />
-          <SlickCarrd />
-          <SlickCarrd />
-          <SlickCarrd />
+          <SlickCarrd dataIn={data?.[2]}/>
+          <SlickCarrd dataIn={data?.[3]}/>
+          <SlickCarrd dataIn={data?.[4]}/>
+          <SlickCarrd dataIn={data?.[5]}/>
         </Slider>
       </Box>
     );

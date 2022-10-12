@@ -16,7 +16,7 @@ import Experience from "../Modal/Experience";
 import Modal from "../Modal";
 import TemporaryDrawer from "../AppDrawer/Index";
 import CustomArrows from "../Slick";
-
+import Footer from "../Footer"
 function index() {
   const [open, setOpen] = React.useState(false);
   const [openExp, setOpenExp] = React.useState(false);
@@ -151,6 +151,9 @@ function index() {
         }}>
           <CustomArrows />
         </Box>
+        </Box>
+        <Box>
+          <Footer />
         </Box>
     </Box>
   );
